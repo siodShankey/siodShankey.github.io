@@ -1,7 +1,9 @@
 # Igor Varekhov
 ### siodShankey.github.io
 Anchors of my projects...
-Сыылки на мою верстку...
+
+
+Ссылки на мою верстку...
 #### [project_01](https://siodshankey.github.io/proejct_01/)
 
 #### [project_02](https://siodshankey.github.io/project_02/)
