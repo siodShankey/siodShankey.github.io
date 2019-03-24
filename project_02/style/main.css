@@ -1,0 +1,124 @@
+.main-wrapper {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.main-title {
+	font-size: 40px;
+	display: block;
+	color: #3f3f3f;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	text-align: center;
+}
+
+.main-title_bold {
+	font-weight: bold;
+}
+
+.main-title_pharagraph {
+	font-size: 18px;
+	display: block;
+	color: #919191;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	text-align: center;
+}
+
+
+.box-container {
+	margin: 18px auto;
+	grid-gap: 18px;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 80%;
+}
+
+.box {
+	margin: 10px;
+	border-radius: 3px;
+	overflow: hidden;
+	border: 1px solid #bfbfbf;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.box:focus {
+	-webkit-transition: .5s;
+	transition: .5s;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 3px #ffffff,
+				0 0 0 5px var(--violet);
+	        box-shadow: 0 0 0 3px #ffffff,
+				0 0 0 5px var(--violet);
+}
+
+.box:focus-within {
+	-webkit-transition: .5s;
+	transition: .5s;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 3px #ffffff,
+				0 0 0 5px var(--violet);
+	        box-shadow: 0 0 0 3px #ffffff,
+				0 0 0 5px var(--violet);
+}
+
+.box:hover {
+	-webkit-transition: .5s;
+	transition: .5s;
+	-webkit-box-shadow: 0 0 0 3px #ffffff,
+				0 0 0 5px var(--violet);
+	        box-shadow: 0 0 0 3px #ffffff,
+				0 0 0 5px var(--violet);
+}
+
+.box-img__wrapper {
+	cursor: pointer;
+	width: 100%;
+	height: 173px;
+	overflow: hidden;
+}
+
+.box-img {
+	width:inherit;
+
+}
+
+
+.box__title {
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	font-weight: bold;
+	font-family: 'Arial';
+	font-size: 14px;
+	margin: 20px 20px 5px 20px;
+   color: #555555;
+}
+
+.box__title:hover {
+	color: var(--violet);
+}
+
+.box__title:focus {
+	outline: 0;
+	color: var(--violet);
+}
+
+.box__title:focus-within {
+	outline: 0;
+	color: var(--violet);
+}
+
+.box__data {
+	font-size: 11px;
+	color:#b0afae;
+	margin: 0 20px 5px 20px;
+}
+
+.box__pharagraph {
+	margin: 0 20px 10px 20px;
+	font-size: 12px;
+	color: #848484;
+}
