@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Index</title>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="" />
+		<meta name="direction" content="" />
+		<meta name="author" content="Igor Varekhov" />
+		<meta name="site-created" content="2018" />
+		<link type="text/css" rel="stylesheet" href="css__styles/style.css">
+		<link type="text/css" rel="stylesheet" href="css__styles/form__style.css">
+		<link type="text/css" rel="stylesheet" href="css__styles/main__container.css">
+		<link type="text/css" rel="stylesheet" href="css__styles/wrapper__header__nav.css">
+		<link type="text/css" rel="stylesheet" href="css__styles/soundcloud__style.css">
+		<link type="text/css" rel="stylesheet" href="css__styles/fotorama.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<script src="java__script__folder/main_java_script.js"></script>
+		<script src="java__script__folder/fotorama.js"></script>
+		<!-- <script src="java__script__folder/main_java_script__compressed.js"></script> -->
+	</head>
+	<body onload="bgShow()">
+	<div id="wrapper__header__nav"  onload="color()">
+		<header id="main__header">
+				 <object data="svg/siod__logo.svg" type="image/svg+xml" title="S.i.O.D. Logo"></object>
+
+					<video controls><source src="video/logo.mp4" autoplay='autoplay'>
+					</video>
+				<object id="underground" data="svg/SIOD_text.svg" type="image/svg+xml" title="Underground Trip Goa Trance">
+				</object>
+			</header>
+			<nav id="main__menu__nav">
+				<div id="nav__container__wrapper">
+					<div id="click_menu" onclick="hideShowNav()" title="Show and hide header menu"><i class="fas fa-sort"></i></div>
+					<div class="nav__container"><a href="" title="Home"><span class="menu__icon__size"><i class="fas fa-home"></i></span>&nbsp;&nbsp;HOME</a></div>
+					<div class="nav__container" onclick="showTable()"><a href="#" title="Released"><span class="menu__icon__size"><i class="fas fa-compact-disc"></i></span>&nbsp;&nbsp;RELEASED&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a></div>
+					<!-- <div class="nav__container" onclick="showTableUnreleased()"><a href="#" title="Unreleased"><span class="menu__icon__size"><i class="fab fa-itunes-note"></i></span>&nbsp;&nbsp;UNRELEASED&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a></div> -->
+					<div class="nav__container" onclick="soundcloudWidget()"><a href="#" title="Soundcloud"><span class="menu__icon__size"><i class="fab fa-soundcloud"></i></span>&nbsp;&nbsp;SOUNDCLOUD&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a></div>
+					<form id="borderChng" action="https://yandex.ru" method="post" tabinex="0"  autofocus>
+						<input id="searchingField" type="search" name="searching" placeholder="Searching . . ." title="Searching . . ." onclick="changeColorSearchIcon()"/>
+						<input id="buttonSubmit" type="submit" name="submit" title="Submit" /><object id="object__search" data="svg/search_glass_icon.svg" type="image/svg+xml"></object>
+					</form>
+				</div>
+			</nav>
+		</div>
+			<main id="main__container" onclick="bgShowReturn(this)">
+				<div class="sub_menu">
+					<table>
+						<tr>
+							<th title="Project">Video</th>
+							<th title="Track Name">Track Name</th>
+							<th title="Album">Album</th>
+							<th title="Label">Label</th>
+							<th title="Year">Year</th>
+						</tr>
+						<tr>
+							<td><iframe width="360" height="215" src="https://www.youtube.com/embed/3QFi0oq-wgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+							<td><a href="https://lookinglook.bandcamp.com/track/jyotish-1000-little-indians" title="1000 Little Indins">1000 Little Indians</a></td>
+							<td><a href="https://lookinglook.bandcamp.com/album/va-dancing-mavka">V/A &mdash; Dancing Mavka</a></td>
+							<td><a href="https://lookinglook.bandcamp.com">Lookinglook Records</a></td>
+							<td><a href="">2011</a></td>
+						</tr>
+						<tr>
+							<td><iframe width="360" height="215" src="https://www.youtube.com/embed/Vs9RIkM3FS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+							<td><a href="">The Truth Is Out There</a></td>
+							<td><a href="">V/A &mdash; Spiritual Doping</a></td>
+							<td><a href="">Lookinglook Records</a></td>
+							<td><a href="">2013</a></td>
+						</tr>
+						<tr>
+							<td><iframe width="360" height="215" src="https://www.youtube.com/embed/EBnyQw_Khls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+							<td><a href="">Purple Imagination</a></td>
+							<td><a href="">V/A &mdash; Gamayun Tale</a></td>
+							<td><a href="">Lookinglook Records</a></td>
+							<td><a href="">2014</a></td>
+						</tr>
+						<tr>
+							<td><iframe width="360" height="215" src="https://www.youtube.com/embed/Lb6k4KVmmRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+							<td><a href="">Infinity In Infinity</a></td>
+							<td><a href="">V/A	&mdash; Goa Meditation Vol.2</a></td>
+							<td><a href="">Timewarp</a></td>
+							<td><a href="">2018</a></td>
+						</tr>
+					</table>
+				</div>
+		</main>
+		<div id="soundcloud__container__wrapper">
+			<div class="soundcloud__box">
+			<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/655340541&color=%2308040b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+		</div>
+	</body>
+</html>

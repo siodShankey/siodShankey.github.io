@@ -1,0 +1,91 @@
+form {
+   margin: 20px 20px;
+    /* min-width: 300px; */
+    min-height: 30px;
+    max-height: 30px;
+    background-color: #2220;
+    grid-column: 6;
+    grid-row: 1;
+    /* justify-items: center; */
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr .1fr;
+    max-width: 400px;
+    min-width: 400px;
+}
+/* 
+form:focus{
+	border-radius: 4px;
+    border: 2px solid #3b6cc0;
+}
+
+form:active {
+	border-radius: 4px;
+    border: 1px solid #3b6cc0;
+}
+ */
+
+#searchingField {
+   color: #555;
+    background-color: #2220;
+    height: 30px;
+    position: relative;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    min-width: 320px;
+}
+
+searchingField:focus {
+	
+}
+
+#searchingField[type="search"]::placeholder{
+   color: #a7a7a7;
+   letter-spacing: 1px;
+}
+
+#searchingField[type="search"]{
+   color: #cc5c48;
+   letter-spacing: 2px;
+}
+
+#searchingField:focus {
+   outline: none;
+}
+
+#buttonSubmit {
+	/background-image: url(../svg/search_glass_icon.svg); */
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: center;
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    cursor: pointer;
+    color: #fff0;
+    border: none;
+    background-color: #2220;
+    justify-self: end;
+    /* position: relative; */
+    /* left: 40px; */
+    z-index:99999999999999;
+}
+
+#buttonSubmit:focus {
+   outline: none;
+}
+
+#object__search {
+   cursor: pointer;
+   min-width: 30px;
+   max-width: 30px;
+   min-height: 30px;
+   max-height: 30px;
+   position: relative;
+    /* grid-row: 3; */
+   grid-column: 3;
+   /* top: -5px; */
+   left: -30px;
+}

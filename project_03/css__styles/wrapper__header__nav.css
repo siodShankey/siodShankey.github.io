@@ -1,0 +1,119 @@
+#wrapper__header__nav {
+   background: -webkit-linear-gradient(#150303, #10182b5c);
+   background: -o-linear-gradient(#150303, #10182b5c);
+   background: linear-gradient(#150303, #10182b5c);
+   width: 100%;
+   /* position: relative; */
+   position: fixed;
+   top: -500px;
+   /* transition: 1s; */
+   /* transition: all 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+   transition: all 800ms cubic-bezier(0.50, -0.3, 0.15, 1.2);
+   margin-bottom: 10px;
+   background-color: #000000;
+   border-bottom: 1px solid #191919;
+   box-shadow: 0px 8px 19px #000000;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+   overflow: hidden;
+}
+
+#main__header {
+	display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   letter-spacing: 4px;
+   background-size: 120px 70px;
+   background-repeat: no-repeat;
+   padding: 1em .5em;
+   margin-bottom: 10px;
+}
+
+object{
+   justify-self: center;
+   min-width: 210px;
+   min-height: 210px;
+   max-width: 210px;
+   max-height: 210px;;
+}
+
+video {
+	border-radius: 4px;
+	max-width: 420px;
+	min-width: 420px;
+}
+
+#underground {
+   min-width: 210px;
+   min-height: 210px;
+   max-width: 210px;
+   max-height: 210px;
+}
+
+#main__menu__nav {
+   border-top: 1px solid #1f1f1f;
+}
+
+#nav__container__wrapper {
+	text-align: center;
+	display: grid;
+   grid-template-columns: .5fr .5fr .5fr 1fr;
+   position: relative;
+   right: 2%;
+}
+
+#click_menu {
+   grid-column: 4;
+   cursor: pointer;
+   color: #a7a7a7;
+   font-size: 2em;
+   padding-top: 20px;
+   justify-self: center;
+}
+
+#click_menu:hover {
+    color: #cc5c48;
+}
+
+.nav__container {
+   padding: 20px 0;
+}
+
+ .nav__container:nth-child(2){
+   grid-column: 1;
+   grid-row: 1
+}
+
+.nav__container:nth-child(3){
+  grid-column: 2;
+  grid-row: 1
+}
+
+.nav__container:nth-child(4){
+  grid-column: 3;
+  grid-row: 1
+}
+
+
+.nav__container:nth-child(5){
+  grid-column: 5;
+  grid-row: 1;
+}
+
+
+.nav__container> a {
+   vertical-align: middle;
+   vertical-align: -webkit-baseline-middle;
+   text-decoration: none;
+   color: #a7a7a7;
+   text-shadow: 1px 1px black;
+   padding: 20px 0;
+}
+
+.nav__container a:hover {
+   color: #cc5c48;
+}
+
+.menu__icon__size {
+   font-size: 2em;
+   vertical-align: sub;
+}
