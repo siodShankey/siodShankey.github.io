@@ -5,4 +5,4 @@ Anchors of my projects...
 
 #### [project_02](https://siodshankey.github.io/proejct_02/)
 
-#### [project_03](https://siodshankey.github.io/proejct_03/"SIOD-Landing")
+#### [project_03](https://siodshankey.github.io/project_03/)
