@@ -1,0 +1,125 @@
+.button-icon {
+	border-radius: 10px;
+	outline:none;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	width: 30px;
+	height: 30px;
+}
+
+.button-icon:hover {
+	background-color: #ccc;
+	-webkit-box-shadow: 0 0 0 4px #ddd, 0 0 0 5px #cccccc;
+	        box-shadow: 0 0 0 4px #ddd, 0 0 0 5px #cccccc;
+}
+
+.button-icon:first-child {
+	background-image: url("../img/menu.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pseudo-btn {
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/close-red.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button-icon:last-child {
+	background-image: url("../img/search.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.header {
+	background-color: #e8e8e8;
+}
+
+.header-wrap {
+	padding:10px;
+	width: 95%;
+	margin: 0 auto;
+	background-color: transparent;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack:justify;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
+}
+
+.search-block {
+	/* position: relative; */
+	position: absolute;
+	width: 30%;
+	left: 68%;
+}
+
+.form-search {
+	overflow: hidden;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 0 0 4px #ddd,
+			0 0 0 5px #cccccc;
+	        box-shadow: 0 0 0 4px #ddd,
+			0 0 0 5px #cccccc;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	/* overflow: hidden;
+	border-radius: 4px;
+	box-shadow: 0 0 0 1px #aaaaaa;
+	position: absolute;
+	display: flex;
+	width: 40%;
+	left: 54%;
+	top: -60px; */
+}
+
+.form-search:focus-within {
+	outline: 0;
+
+}
+
+.form-search__input {
+	width: 90%;
+	padding: 10px;
+	border: none;
+
+	/* width: 100%;
+	padding: 10px;
+	border: none; */
+}
+
+.form-search__button {
+	cursor:pointer;
+	outline:none;
+	background-color: #fff;
+	background-image: url('../img/close-red.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px;
+	width: 10%;
+	border: none;
+
+	/* background-color: #fff;
+	background-image: url('../img/close-red.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px;
+	width: 10%;
+	border: none; */
+}

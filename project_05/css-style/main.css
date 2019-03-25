@@ -1,0 +1,38 @@
+.main-wrap {
+	padding-top: 50px;
+	background-color: #eee;
+	height: 100vh;
+	/* overflow: auto; */
+}
+
+.content-item {
+	background: linear-gradient(#00BCD4, #09526a);
+	height: 600px;
+}
+
+.title {
+	color: #fff;
+	text-align: center;
+	position: relative;
+	top: 10%;
+}
+
+.pharagraph {
+	color: #fff;
+	text-align: center;
+	position: relative;
+	top: 11%;
+}
+
+
+.grid-svg-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 90%;
+	margin: 100px auto;
+	justify-items: center;
+	box-shadow: 0 0 0px 5px #0492ab, 0 0 0 7px #01abc3;
+	padding: 50px 10px;
+	border-radius: 5px;
+	background-color: #01abc3;
+}
